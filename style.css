@@ -13,7 +13,6 @@ h1{
     font-family: "Inter", sans-serif;
     font-weight: 700;
     font-size: 38px;
-    width: 100%;
 }
 
 p{
@@ -22,7 +21,7 @@ p{
     font-weight: 500;
 }
 
-header{
+header, footer{
     display: flex;
     height: 80px;
     padding: 10px 32px;
@@ -51,6 +50,10 @@ header{
     align-self: stretch;
 }
 
+.title h1{
+    width: 100%;
+}
+
 .title .texts{
     display: flex;
     flex-direction: column;
@@ -68,4 +71,66 @@ header{
 
 .assi p{
     font-weight: 700;
+}
+
+.cartas{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    align-self: stretch;
+}
+
+.cartas h2{
+    font-family: "Inter", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.cartas p{
+    font-family: "Waiting for the Sunrise";
+    font-size: 24px;
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    align-self: stretch;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer{
+    border-bottom: 0;
+    border-top: 1px solid #FFF;
+    justify-content: center;
+    align-items: center;
+}
+
+/*CARTA*/
+.texts-cartas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    align-self: stretch;
+}
+
+.texts-cartas .title-cartas{
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-bottom: 1px solid #FFF;
+}
+
+.p-text{
+    font-weight: 300;
 }
